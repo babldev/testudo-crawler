@@ -51,7 +51,6 @@ class testudocrawler:
     Returns a LIST of DICTIONARIES of the form:
     {
     'code' : 'CMSC131',
-    'section' : '0001',
     'id' : 16141,
     'title' : 'Introduction to Computer Programming via the Web',
     'credits' : 3,
@@ -61,6 +60,9 @@ class testudocrawler:
         understanding and implementation of applications using object-oriented techniques. Develops \
         skills such as program design and testing as well as implementation of programs using a \
         graphical IDE. Programming done in Java. '
+    
+    'teacher' : 'B Dole.',
+    'section' : '0001',
     
     'c1_building' : 'CSI',
     'c1_room' : 2117,
@@ -97,29 +99,36 @@ class testudocrawler:
             
         response = self.fetch_courses_page(dept=dept)
         pattern = re.compile(r"""
-                <font\sface="arial,helvetica"\ssize=-1>[\s]*
-                <b>(?P<code>.*)<\/b>[\s]*
-                (<i>(?P<permreq>.*)<\/i>[\s]*)?                     # optional
-                <b>(?P<title>.*);<\/b>[\s]*
-                <b>\s*\((?P<credits>.*)\s+credits?\)\s*</b>[\s]*
-                Grade\s*Method:\s*(?P<grade_method>.*)\.[\s]*
-                <br>[\s]*
-                (<i>(?P<requirements>[^<]*)<\/i>[\s]*)?           # optional
-                (?P<description>[^<]*)
-                <\/font>[\s]*
+                <font\sface="arial,helvetica"\ssize=-1>\s*
+                <b>(?P<code>.*)<\/b>\s*
+                (<i>(?P<permreq>.*)<\/i>\s*)?
+                <b>(?P<title>.*);<\/b>\s*
+                <b>\s*\((?P<credits>.*)\s+credits?\)\s*</b>\s*
+                Grade\s*Method:\s*(?P<grade_method>.*)\.\s*
+                (?P<details>.*)\s*
+                <br>\s*
+                (?P<description>[\s\S]*?)
+                <\/font>\s*
+                (<br>\s*)?
+                
+                # Get section data in <blockquote> tags for additional parsing
+                (<blockquote>(?P<section_data>[\s\S]*?)<\/blockquote>)?
                 """,
                 re.IGNORECASE | re.VERBOSE)
         courses = list()
         for m in pattern.finditer(response):
-            courses.append(dict(
+            course = dict(
                     code=clean_and_trim(m.group('code')),
                     title=clean_and_trim(m.group('title')),
                     permreq=clean_and_trim(m.group('permreq')),
                     credits=clean_and_trim(m.group('credits')),
                     grade_method=clean_and_trim(m.group('grade_method')),
-                    requirements=clean_and_trim(m.group('requirements')),
-                    description=clean_and_trim(m.group('description'))
-                    ))
+                    details=clean_and_trim(m.group('details')),
+                    description=clean_and_trim(m.group('description')),
+                    section_data=clean_and_trim(m.group('section_data')),
+                    )
+            
+            courses.append(course)
 
         if self.verbose:
             logger.info('%d courses downloaded for %s.' % (len(courses), dept))
@@ -188,27 +197,32 @@ class testudocrawler_tests(unittest.TestCase):
         found = False
         correct_course = {
         'code': 'CMSC131',
+        'title': 'Object-Oriented Programming I',
+        'permreq': '(PermReq)',
+        'details' : None,
+        'credits': '4',
+        'grade_method': 'REG',
         'requirements': 'Corequisite: MATH140 and permission of department. Not open to students who have completed CMSC114.',
         'description': 'Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques. Develops skills such as program design and testing as well as implementation of programs using a graphical IDE. Programming done in Java.',
-        'title': 'Object-Oriented Programming I',
-        'grade_method': 'REG',
-        'credits': '4',
-        'permreq': '(PermReq)'}
+        }
         
         for c in courses:
-            logger.debug(c)
-            
+            # logger.debug(c['code'])
+            logger.debug('%s: %s' % (c['code'], c['section_data']))
+        
+        for c in courses:
             if c['code'] == correct_course['code']:
                 found = True
                 assert len(correct_course) == len(c)
                 for k, v in correct_course.items():
                     assert c[k] == v, 'Course check failed!\nGenerated:\t%s\nCorrect:\t%s' % (c[k], v)
-            assert len(courses) > 20
+            assert len(courses) == 53, 'Found length %d != 53' % len(courses)
         assert found
     
     def test_get_all_courses(self):
-        courses = self.crawler.get_all_courses()
-        logger.debug(courses)
+        pass
+        # courses = self.crawler.get_all_courses()
+        # logger.debug(courses)
         
 if __name__ == "__main__":
     unittest.main()
