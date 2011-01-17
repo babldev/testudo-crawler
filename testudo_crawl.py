@@ -7,11 +7,8 @@ Created by Brady Law on 2011-01-16.
 Copyright (c) 2011 Unknown. All rights reserved.
 """
 
-import sys
-import os
 import re
 import urllib
-import unittest
 import logging
 
 logger = logging.getLogger('testudo_crawler')
@@ -24,8 +21,12 @@ logger.addHandler(ch)
 
 class testudocrawler:
     base_url = 'http://www.sis.umd.edu/bin/soc'
-    def __init__(self, term, verbose=True):
+    def __init__(self, term, verbose=False):
         self.term = term
+        if verbose:
+            logger.setLevel(logging.INFO)
+        else:
+            logger.setLevel(logging.WARNING)
         self.verbose = verbose
 
     """
@@ -98,7 +99,7 @@ class testudocrawler:
             logger.info('Downloading %s...' % (dept))
             
         response = self.fetch_courses_page(dept=dept)
-        pattern = re.compile(r"""
+        course_pattern = re.compile(r"""
                 <font\sface="arial,helvetica"\ssize=-1>\s*
                 <b>(?P<code>.*)<\/b>\s*
                 (<i>(?P<permreq>.*)<\/i>\s*)?
@@ -113,10 +114,10 @@ class testudocrawler:
                 
                 # Get section data in <blockquote> tags for additional parsing
                 (<blockquote>(?P<section_data>[\s\S]*?)<\/blockquote>)?
-                """,
-                re.IGNORECASE | re.VERBOSE)
+                """, re.IGNORECASE | re.VERBOSE)
+            
         courses = list()
-        for m in pattern.finditer(response):
+        for m in course_pattern.finditer(response):
             course = dict(
                     code=clean_and_trim(m.group('code')),
                     title=clean_and_trim(m.group('title')),
@@ -125,16 +126,56 @@ class testudocrawler:
                     grade_method=clean_and_trim(m.group('grade_method')),
                     details=clean_and_trim(m.group('details')),
                     description=clean_and_trim(m.group('description')),
-                    section_data=clean_and_trim(m.group('section_data')),
+                    sections=self.parse_section_data(section_data=m.group('section_data')) \
+                            if m.group('section_data') else None
                     )
-            
             courses.append(course)
 
         if self.verbose:
             logger.info('%d courses downloaded for %s.' % (len(courses), dept))
             
         return courses
+    
+    def parse_section_data(self, section_data):
+        section_pattern = re.compile(r"""
+                <dl>\s*
+                (?P<section>\d{4})\((?P<course_id>\d{5})\)\s*
+                (<a\s.*?>\s*)?
+                (?P<teacher>[\s\S]+?)\s*
+                (</a>\s*)?
+                \((FULL:\s*)?Seats=(?P<seats>\d+),\sOpen=(?P<open>\d+),\sWaitlist=(?P<waitlist>\d+)\)
+                (?P<class_time_data>[\s\S]*?)
+                <\/dl>
+                """, re.IGNORECASE | re.VERBOSE)
+                
+        class_time_pattern = re.compile(r"""
+            <dd>
+            (?P<days>[MWFTuh]+)
+            [.\s]*
+            (?P<start_time>\d{1,2}:\d{2}[apm]{2})-\s*(?P<end_time>\d{1,2}:\d{2}[apm]{2})
+            .*?
+            </dd>
+        """, re.IGNORECASE | re.VERBOSE)
+        
+        sections = list()   
+        for s in section_pattern.finditer(section_data):
+            class_times = list()
+            if s.group('class_time_data'):
+                for ct in class_time_pattern.finditer(s.group('class_time_data')):
+                    class_times.append(ct.groupdict())
+                
+            sections.append(dict(
+                section=clean_and_trim(s.group('section')),
+                course_id=clean_and_trim(s.group('course_id')),
+                teacher=clean_and_trim(s.group('teacher')),
+                seats=clean_and_trim(s.group('seats')),
+                open=clean_and_trim(s.group('open')),
+                waitlist=clean_and_trim(s.group('waitlist')),
+                class_times=class_times
+            ))
             
+        return sections
+        
     def fetch_departments_page(self):
         return self.fetch_courses_page(dept='DEPT')
         
@@ -167,62 +208,3 @@ def clean_and_trim(string):
         return string.replace('\n', ' ').strip()
     else:
         return None
-
-class testudocrawler_tests(unittest.TestCase):
-    def setUp(self):
-        self.crawler = testudocrawler(term='201101')
-        pass
-    
-    def test_fetch_departments_page(self):
-        response = self.crawler.fetch_departments_page()
-        assert response is not None
-        assert len(response) > 20
-        assert response.find('CMSC') > 0
-    
-    def test_get_departments(self):
-        departments = self.crawler.get_departments()
-        assert departments is not None
-        assert len(departments) > 20
-        assert dict(code='CMSC', title='Computer Science') in departments
-    
-    def test_fetch_courses_page(self):
-        response = self.crawler.fetch_courses_page('CMSC')
-        assert response is not None
-        assert len(response) > 20
-        assert response.find('Object-Oriented Programming I') > 0
-    
-    def test_get_courses(self):
-        courses = self.crawler.get_courses('CMSC')
-        assert courses is not None
-        found = False
-        correct_course = {
-        'code': 'CMSC131',
-        'title': 'Object-Oriented Programming I',
-        'permreq': '(PermReq)',
-        'details' : None,
-        'credits': '4',
-        'grade_method': 'REG',
-        'requirements': 'Corequisite: MATH140 and permission of department. Not open to students who have completed CMSC114.',
-        'description': 'Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques. Develops skills such as program design and testing as well as implementation of programs using a graphical IDE. Programming done in Java.',
-        }
-        
-        for c in courses:
-            # logger.debug(c['code'])
-            logger.debug('%s: %s' % (c['code'], c['section_data']))
-        
-        for c in courses:
-            if c['code'] == correct_course['code']:
-                found = True
-                assert len(correct_course) == len(c)
-                for k, v in correct_course.items():
-                    assert c[k] == v, 'Course check failed!\nGenerated:\t%s\nCorrect:\t%s' % (c[k], v)
-            assert len(courses) == 53, 'Found length %d != 53' % len(courses)
-        assert found
-    
-    def test_get_all_courses(self):
-        pass
-        # courses = self.crawler.get_all_courses()
-        # logger.debug(courses)
-        
-if __name__ == "__main__":
-    unittest.main()
