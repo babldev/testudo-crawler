@@ -1,15 +1,14 @@
 #!/usr/bin/env python
-
-from distutils.core import setup
-
-setup(name='testudo-crawler',
-      version='0.1',
-      description='Scrapes course data from the University of Maryland College Park Testudo system.',
-      author='Brady Law',
-      author_email='brady@bablhost.com',
-      url='https://github.com/babldev/testudo-crawler',
-      package_dir={'': 'src'},
-      py_modules=[
-              'testudo',
-          ],
-     )
+from setuptools import setup, find_packages
+setup(
+    name = "testudo-crawler",
+    version = "0.1",
+    author = "Brady Law",
+    author_email = "brady@bablhost.com",
+    description = "Scrapes the University of Maryland College Park course listings off of Testudo.",
+    keywords = "testudo umd maryland course scrape crawler",
+    url = "https://github.com/babldev/testudo-crawler",
+    
+    packages = find_packages('src'),  # include all packages under src
+    package_dir = {'':'src'},
+)
