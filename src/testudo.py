@@ -205,7 +205,7 @@ class crawler:
         f.close()
         return response
     
-    def get_all_courses(self):
+    def get_all_courses(self, simple=False):
         departments = self.get_departments()
         all_courses = list()
         
@@ -215,7 +215,7 @@ class crawler:
         for d in departments:
             d_pos += 1
             logger.info('Dept %d/%d' % (d_pos, d_count))
-            all_courses.extend(self.get_courses(dept=d['code']))
+            all_courses.extend(self.get_courses(dept=d['code'], simple=simple))
             
         if self.verbose:
             logger.info('Done! %d courses found for %d departments.' % (len(all_courses), len(departments)))

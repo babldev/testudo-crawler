@@ -116,7 +116,7 @@ E. Golub</a> (FULL: Seats=25, Open=0, Waitlist=7) <a href="/bin/bookstore?term=2
         assert response is not None
         assert len(response) > 20
         assert response.find('Object-Oriented Programming I') > 0
-    
+
     def test_get_courses(self):
         courses = self.crawler.get_courses('CMSC')
         # Simpler regex
@@ -143,7 +143,16 @@ E. Golub</a> (FULL: Seats=25, Open=0, Waitlist=7) <a href="/bin/bookstore?term=2
                 for k, v in correct_course.items():
                     assert c[k] == v, 'Course check failed for "%s"!\nGenerated:\t%s\nCorrect:\t%s' % (k, c[k], v)
         assert found
+    """
+    def test_course_count_matches(self):
+        # Disable well not using
+        courses = self.crawler.get_all_courses()
+        simple_courses = self.crawler.get_all_courses(simple=True)
         
+        # ugly code
+        for i in range(0, len(simple_courses)):
+            assert simple_courses[i]['code'] == courses[i]['code'], simple_courses[i]['code']
+    """
 if __name__ == "__main__":
     unittest.main()
     
