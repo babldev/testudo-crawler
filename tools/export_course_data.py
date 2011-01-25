@@ -57,7 +57,7 @@ def main(argv=None):
             if option in ("-d", "--dept"):
                 dept = value
             
-        c = testudo.Crawler(term='201101', verbose=verbose)
+        c = testudo.crawler(term='201101', verbose=verbose)
         if json_data:
             # Load exising JSON data (faster)
             courses = json.load(open(json_data, 'rb'))

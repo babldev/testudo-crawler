@@ -11,4 +11,6 @@ setup(
     
     packages = find_packages('src'),  # include all packages under src
     package_dir = {'':'src'},
+    
+    test_suite='test',
 )

@@ -2,12 +2,11 @@
 # encoding: utf-8
 
 import unittest
-
-from testudo_crawl import testudocrawler
+import testudo
 
 class testudocrawler_tests(unittest.TestCase):
     def setUp(self):
-        self.crawler = testudocrawler(term='201101', verbose=True)
+        self.crawler = testudo.crawler(term='201101', verbose=True)
         pass
     
     def test_parse_section_data(self):
