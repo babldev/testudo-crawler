@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 import unittest
+
 import testudo
 
 class testudocrawler_tests(unittest.TestCase):
@@ -92,8 +93,7 @@ E. Golub</a> (FULL: Seats=25, Open=0, Waitlist=7) <a href="/bin/bookstore?term=2
 </dl> 
 </b></font>        
 """
-        sections = self.crawler.parse_section_data(course=None, section_data=sample_section_source)
-        print sections
+        sections = self.crawler.parse_section_data(sample_section_source)
         assert sections
         assert len(sections) == 8
         assert sections[0]['section'] == '0101'
@@ -117,9 +117,13 @@ E. Golub</a> (FULL: Seats=25, Open=0, Waitlist=7) <a href="/bin/bookstore?term=2
         assert len(response) > 20
         assert response.find('Object-Oriented Programming I') > 0
     
-    
     def test_get_courses(self):
         courses = self.crawler.get_courses('CMSC')
+        # Simpler regex
+        simple_courses = self.crawler.get_courses('CMSC', simple=True)
+        
+        assert len(courses) == len(simple_courses)
+        
         assert courses is not None
         found = False
         correct_course = {
@@ -129,22 +133,16 @@ E. Golub</a> (FULL: Seats=25, Open=0, Waitlist=7) <a href="/bin/bookstore?term=2
         'details' : None,
         'credits': '4',
         'grade_method': 'REG',
-        'requirements': 'Corequisite: MATH140 and permission of department. Not open to students who have completed CMSC114.',
-        'description': 'Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques. Develops skills such as program design and testing as well as implementation of programs using a graphical IDE. Programming done in Java.',
+        'details': None,
+        'description': '<i> Corequisite: MATH140 and permission of department. Not open to students who have completed CMSC114. </i> Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques. Develops skills such as program design and testing as well as implementation of programs using a graphical IDE. Programming done in Java.',
         }
         
         for c in courses:
             if c['code'] == correct_course['code']:
                 found = True
-                assert len(correct_course) == len(c)
                 for k, v in correct_course.items():
-                    assert c[k] == v, 'Course check failed!\nGenerated:\t%s\nCorrect:\t%s' % (c[k], v)
-            assert len(courses) == 53, 'Found length %d != 53' % len(courses)
+                    assert c[k] == v, 'Course check failed for "%s"!\nGenerated:\t%s\nCorrect:\t%s' % (k, c[k], v)
         assert found
-    
-    def test_get_all_courses(self):
-        courses = self.crawler.get_all_courses()
-        logger.debug(courses)
         
 if __name__ == "__main__":
     unittest.main()
