@@ -21,6 +21,100 @@ logger.addHandler(ch)
 
 class testudocrawler:
     base_url = 'http://www.sis.umd.edu/bin/soc'
+    
+    """ Testudo Regular Expressions:
+    Cheatsheet:
+        (?P<var>...)    Variable named "var".
+        .               Any char except \n.
+        [\s\S]          Any char.
+        *               Match as much as possible
+        *?              Match as little as possible.
+    """
+    
+    """ Simple Course Pattern:
+        Grabs only the course code in an effort to be as simple as possible. This is used
+        for testing that the full pattern (course_pattern) is correct.
+    """
+    simple_course_columns = ['code']
+    simple_course_pattern = re.compile(r"""
+            <font\sface="arial,helvetica"\ssize=-1>\s*
+            <b>(?P<code>.*)<\/b>
+            """, re.IGNORECASE | re.VERBOSE)
+    
+    """ Full Course Pattern:
+        Grabs all course data, and passes on section data if found for further parsing.
+    """
+    course_columns = [
+            'code',             # ex. CMSC131
+            'title',            # ex. Introduction to Computer Programming via the Web
+            'permreq',          # ex. PermReq
+            'credits',          # ex. 3 credits
+            'grade_method',     # ex. REG/P-F/AUD
+            'details',          # ex. Corequisite: MATH140 and permission of department...
+            'description',      # ex. Introduction to programming and computer science...
+            ]
+    course_pattern = re.compile(r"""
+            <font\sface="arial,helvetica"\ssize=-1>\s*
+            <b>(?P<code>.*)<\/b>\s*
+            (<i>(?P<permreq>.*)<\/i>\s*)?
+            <b>(?P<title>[\s\S]*?);<\/b>\s*
+            <b>\s*\((?P<credits>.*)\s+credits?\)\s*</b>\s*
+            Grade\s*Method:\s*(?P<grade_method>.*)\.\s*
+            (?P<details>[\s\S]*?)\s*
+            (<br>\s*
+                (?P<description>[\s\S]*?)
+            )?
+            <\/font>\s*
+            (<br>\s*)?
+
+            # Get section data in <blockquote> tags for additional parsing
+            (<blockquote>(?P<section_data>[\s\S]*?)<\/blockquote>)?
+            """, re.IGNORECASE | re.VERBOSE)
+    
+    """ Section Pattern:
+        Scrapes data for each course section.
+    """
+    section_columns = [
+            'section',
+            'course_id',
+            'teacher',
+            'seats',
+            'open',
+            'waitlist',
+            ]
+            # class_time_data
+    section_pattern = re.compile(r"""
+            <dl>\s*
+            (?P<section>\d{4})\((?P<course_id>\d{5})\)\s*
+            (<a\s.*?>\s*)?
+            (?P<teacher>[\s\S]+?)\s*
+            (</a>\s*)?
+            \((FULL:\s*)?Seats=(?P<seats>\d+),\sOpen=(?P<open>\d+),\sWaitlist=(?P<waitlist>\d+)\)
+            (?P<class_time_data>[\s\S]*?)
+            <\/dl>
+            """, re.IGNORECASE | re.VERBOSE)
+    
+    """ Class time pattern:
+        Scrapes time and location data for each time the section meets.
+    """
+    class_time_columns = [
+            'days',
+            'start_time',
+            'end_time',
+            # 'building',
+            # 'room',
+            # 'type'
+            ]
+    class_time_pattern = re.compile(r"""
+            <dd>
+            (?P<days>[MWFTuh]+)
+            [.\s]*
+            (?P<start_time>\d{1,2}:\d{2}[apm]{2})-\s*(?P<end_time>\d{1,2}:\d{2}[apm]{2})
+            .*?
+            </dd>
+            """, re.IGNORECASE | re.VERBOSE)
+    
+    
     def __init__(self, term, verbose=False):
         self.term = term
         if verbose:
@@ -30,8 +124,8 @@ class testudocrawler:
         self.verbose = verbose
 
     """
-    Returns a LIST of DICTIONARIES of the form:
-    {
+    Returns a list of dictionaries representing all departments.
+    ex. {
     'code' : 'AASP',
     'title' : 'African American Studies'
     }
@@ -49,86 +143,28 @@ class testudocrawler:
         return departments
     
     """
-    Returns a LIST of DICTIONARIES of the form:
-    {
-    'code' : 'CMSC131',
-    'id' : 16141,
-    'title' : 'Introduction to Computer Programming via the Web',
-    'credits' : 3,
-    'grade' : 'REG/P-F/AUD',
-    'description' : 'Corequisite: MATH140 and permission of department. Not open to students \
-        who have completed CMSC114. Introduction to programming and computer science. Emphasizes \
-        understanding and implementation of applications using object-oriented techniques. Develops \
-        skills such as program design and testing as well as implementation of programs using a \
-        graphical IDE. Programming done in Java. '
-    
-    'teacher' : 'B Dole.',
-    'section' : '0001',
-    
-    'c1_building' : 'CSI',
-    'c1_room' : 2117,
-    'c1_time_start' : '10:00am',
-    'c1_time_end' : '10:50am',
-    'c1_days' : 'MWF',
-    'c1_type' : None,
-    
-    'c2_building' : 'CSI',
-    'c2_room' : 2120,
-    'c2_time_start' : '11:00am',
-    'c2_time_end' : '11:50am',
-    'c2_days' : 'MW',
-    'c2_type' : 'Dis',
-    
-    'c3_building' : None,
-    'c3_room' : None,
-    'c3_time_start' : None,
-    'c3_time_end' : None,
-    'c3_days' : None,
-    'c3_type' : None,
-    
-    'start_date' : None, # Example '03/28/11'
-    'end_date' : None, # Example '03/28/11'
-    
-    'seats' : 25,
-    'open' : 0,
-    'waitlist' : 7,
-    }
+    Returns a list of dictionaries representing all courses.
+    Args:
+        dept - Department to retrieve courses for.
+        simple - For testing, use the simpler RegEx search to grab only the course titles.
     """
-    def get_courses(self, dept):
+    def get_courses(self, dept, simple=False):
         if self.verbose:
             logger.info('Downloading %s...' % (dept))
             
         response = self.fetch_courses_page(dept=dept)
-        course_pattern = re.compile(r"""
-                <font\sface="arial,helvetica"\ssize=-1>\s*
-                <b>(?P<code>.*)<\/b>\s*
-                (<i>(?P<permreq>.*)<\/i>\s*)?
-                <b>(?P<title>.*);<\/b>\s*
-                <b>\s*\((?P<credits>.*)\s+credits?\)\s*</b>\s*
-                Grade\s*Method:\s*(?P<grade_method>.*)\.\s*
-                (?P<details>.*)\s*
-                <br>\s*
-                (?P<description>[\s\S]*?)
-                <\/font>\s*
-                (<br>\s*)?
-                
-                # Get section data in <blockquote> tags for additional parsing
-                (<blockquote>(?P<section_data>[\s\S]*?)<\/blockquote>)?
-                """, re.IGNORECASE | re.VERBOSE)
-            
+        
+        pattern = self.course_pattern if not simple else self.simple_course_pattern
+        columns = self.course_columns if not simple else self.simple_course_columns
+        
         courses = list()
-        for m in course_pattern.finditer(response):
-            course = dict(
-                    code=clean_and_trim(m.group('code')),
-                    title=clean_and_trim(m.group('title')),
-                    permreq=clean_and_trim(m.group('permreq')),
-                    credits=clean_and_trim(m.group('credits')),
-                    grade_method=clean_and_trim(m.group('grade_method')),
-                    details=clean_and_trim(m.group('details')),
-                    description=clean_and_trim(m.group('description')),
-                    sections=self.parse_section_data(section_data=m.group('section_data')) \
-                            if m.group('section_data') else None
-                    )
+        for m in pattern.finditer(response):
+            course_raw_data = m.groupdict()
+            course = dict()
+            for col in columns:
+                course[col] = clean_and_trim(course_raw_data[col])
+            course['sections'] = self.parse_section_data(course_raw_data['section_data']) \
+                if 'section_data' in course_raw_data else None
             courses.append(course)
 
         if self.verbose:
@@ -137,42 +173,25 @@ class testudocrawler:
         return courses
     
     def parse_section_data(self, section_data):
-        section_pattern = re.compile(r"""
-                <dl>\s*
-                (?P<section>\d{4})\((?P<course_id>\d{5})\)\s*
-                (<a\s.*?>\s*)?
-                (?P<teacher>[\s\S]+?)\s*
-                (</a>\s*)?
-                \((FULL:\s*)?Seats=(?P<seats>\d+),\sOpen=(?P<open>\d+),\sWaitlist=(?P<waitlist>\d+)\)
-                (?P<class_time_data>[\s\S]*?)
-                <\/dl>
-                """, re.IGNORECASE | re.VERBOSE)
-                
-        class_time_pattern = re.compile(r"""
-            <dd>
-            (?P<days>[MWFTuh]+)
-            [.\s]*
-            (?P<start_time>\d{1,2}:\d{2}[apm]{2})-\s*(?P<end_time>\d{1,2}:\d{2}[apm]{2})
-            .*?
-            </dd>
-        """, re.IGNORECASE | re.VERBOSE)
+        if not section_data:
+            return None
         
-        sections = list()   
-        for s in section_pattern.finditer(section_data):
+        sections = list()
+        for s in self.section_pattern.finditer(section_data):
             class_times = list()
+            new_section = dict()
+            raw_section_data = s.groupdict()
+
+            # Parse the class time data
             if s.group('class_time_data'):
-                for ct in class_time_pattern.finditer(s.group('class_time_data')):
+                for ct in self.class_time_pattern.finditer(s.group('class_time_data')):
                     class_times.append(ct.groupdict())
+
+            for col in self.section_columns:
+                new_section[col] = clean_and_trim(raw_section_data[col])
                 
-            sections.append(dict(
-                section=clean_and_trim(s.group('section')),
-                course_id=clean_and_trim(s.group('course_id')),
-                teacher=clean_and_trim(s.group('teacher')),
-                seats=clean_and_trim(s.group('seats')),
-                open=clean_and_trim(s.group('open')),
-                waitlist=clean_and_trim(s.group('waitlist')),
-                class_times=class_times
-            ))
+            new_section['class_times'] = class_times
+            sections.append(new_section)
             
         return sections
         

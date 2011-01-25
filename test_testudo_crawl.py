@@ -118,6 +118,7 @@ E. Golub</a> (FULL: Seats=25, Open=0, Waitlist=7) <a href="/bin/bookstore?term=2
         assert len(response) > 20
         assert response.find('Object-Oriented Programming I') > 0
     
+    
     def test_get_courses(self):
         courses = self.crawler.get_courses('CMSC')
         assert courses is not None

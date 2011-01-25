@@ -29,13 +29,14 @@ def main(argv=None):
         argv = sys.argv
     try:
         try:
-            opts, args = getopt.getopt(argv[1:], "hoi:q", ["help","output=","input_json_data="])
+            opts, args = getopt.getopt(argv[1:], "hoid:q", ["help","output=","input_json_data=","dept="])
         except getopt.error, msg:
             raise Usage(msg)
             
         verbose= True
-        output = 'course_data.json'
+        output = 'data/course_data.json'
         json_data = None
+        dept = None
         
         # option processing
         for option, value in opts:
@@ -47,6 +48,8 @@ def main(argv=None):
                 json_data = value
             if option in ("-o", "--output"):
                 output = value
+            if option in ("-d", "--dept"):
+                dept = value
             
         c = testudocrawler(term='201101', verbose=verbose)
         if json_data:
@@ -54,13 +57,16 @@ def main(argv=None):
             courses = json.load(open(json_data, 'rb'))
         else:
             # Fetch course data from server
-            courses = c.get_all_courses()
+            if dept:
+                courses = c.get_courses(dept=dept)
+            else:
+                courses = c.get_all_courses()
             json.dump(courses, open(output, 'wb'), indent=2)
         
         if csv:
-            course_writer = csv.writer(open('courses.csv', 'wb'), delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            section_writer = csv.writer(open('sections.csv', 'wb'), delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            class_time_writer = csv.writer(open('class_times.csv', 'wb'), delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            course_writer = csv.writer(open('data/courses.csv', 'wb'), delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            section_writer = csv.writer(open('data/sections.csv', 'wb'), delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            class_time_writer = csv.writer(open('data/class_times.csv', 'wb'), delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
             
             for c in courses:
                 if c['sections']:
