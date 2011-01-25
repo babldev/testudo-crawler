@@ -12,10 +12,16 @@ import getopt
 import json
 import csv
 
-from testudo_crawl import testudocrawler
+import testudo
 
 help_message = '''
-The help message goes here.
+Testudo Course Data Exporter:
+Options:
+    -h\tHelp
+    -q\tQuiet
+    -i [file]\tInput json file
+    -o [file]\tOutput json file
+    -d [dept]\tLimit to specific department
 '''
 
 
@@ -51,7 +57,7 @@ def main(argv=None):
             if option in ("-d", "--dept"):
                 dept = value
             
-        c = testudocrawler(term='201101', verbose=verbose)
+        c = testudo.Crawler(term='201101', verbose=verbose)
         if json_data:
             # Load exising JSON data (faster)
             courses = json.load(open(json_data, 'rb'))

@@ -2,7 +2,7 @@
 
 from distutils.core import setup
 
-setup(name='testudo-crawl',
+setup(name='testudo-crawler',
       version='0.1',
       description='Scrapes course data from the University of Maryland College Park Testudo system.',
       author='Brady Law',
@@ -10,6 +10,6 @@ setup(name='testudo-crawl',
       url='https://github.com/babldev/testudo-crawler',
       package_dir={'': 'src'},
       py_modules=[
-              'testudo_crawl',
+              'testudo',
           ],
      )

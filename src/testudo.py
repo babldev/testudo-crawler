@@ -19,7 +19,7 @@ formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(messag
 ch.setFormatter(formatter)
 logger.addHandler(ch)
 
-class testudocrawler:
+class Crawler:
     base_url = 'http://www.sis.umd.edu/bin/soc'
     
     """ Testudo Regular Expressions:

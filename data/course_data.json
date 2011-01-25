@@ -237,7 +237,7 @@
         "teacher": "D. Doster"
       }, 
       {
-        "waitlist": "2", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "1:00pm", 
@@ -418,7 +418,7 @@
         "section": "0101", 
         "seats": "43", 
         "course_id": "00126", 
-        "open": "19", 
+        "open": "18", 
         "teacher": "R. Zeigler"
       }
     ], 
@@ -765,7 +765,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "20", 
+        "waitlist": "19", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -951,7 +951,7 @@
         "section": "0103", 
         "seats": "20", 
         "course_id": "00380", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "L. Mar"
       }, 
       {
@@ -1857,7 +1857,7 @@
         "teacher": "H. Lehnguth"
       }, 
       {
-        "waitlist": "16", 
+        "waitlist": "15", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -1883,7 +1883,7 @@
     "details": "CORE Behavioral and Social Science (SB) Course. CORE Diversity (D) Course.", 
     "sections": [
       {
-        "waitlist": "1", 
+        "waitlist": "0", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -2303,7 +2303,7 @@
         "section": "0201", 
         "seats": "20", 
         "course_id": "01252", 
-        "open": "9", 
+        "open": "10", 
         "teacher": "J. Paoletti"
       }
     ], 
@@ -3458,7 +3458,7 @@
         "teacher": "T. Leslie"
       }, 
       {
-        "waitlist": "29", 
+        "waitlist": "30", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -3518,7 +3518,7 @@
         "teacher": "T. Leslie"
       }, 
       {
-        "waitlist": "26", 
+        "waitlist": "27", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -3801,7 +3801,7 @@
     "details": "CORE Social or Political History (SH) Course.", 
     "sections": [
       {
-        "waitlist": "2", 
+        "waitlist": "23", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -4098,7 +4098,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "3", 
+        "waitlist": "2", 
         "class_times": [
           {
             "start_time": "6:00pm", 
@@ -4213,7 +4213,7 @@
         "section": "0101", 
         "seats": "25", 
         "course_id": "02115", 
-        "open": "3", 
+        "open": "4", 
         "teacher": "M. Palus"
       }
     ], 
@@ -4395,7 +4395,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "02175", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "T. Whitehead"
       }
     ], 
@@ -4585,7 +4585,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "02289", 
-        "open": "10", 
+        "open": "9", 
         "teacher": "M. Paolisso"
       }
     ], 
@@ -5385,7 +5385,7 @@
         "section": "0104", 
         "seats": "30", 
         "course_id": "02546", 
-        "open": "11", 
+        "open": "10", 
         "teacher": "R. Hudson"
       }, 
       {
@@ -5990,7 +5990,7 @@
     "details": "CORE Literature (HL) Course.", 
     "sections": [
       {
-        "waitlist": "13", 
+        "waitlist": "12", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -7313,7 +7313,7 @@
         "section": "0104", 
         "seats": "35", 
         "course_id": "03348", 
-        "open": "23", 
+        "open": "22", 
         "teacher": "D. Lipton and D. Parker and R. Ali"
       }
     ], 
@@ -8102,7 +8102,7 @@
         "section": "0101", 
         "seats": "50", 
         "course_id": "03829", 
-        "open": "3", 
+        "open": "1", 
         "teacher": "S. Cook"
       }
     ], 
@@ -8210,7 +8210,7 @@
         "section": "0101", 
         "seats": "30", 
         "course_id": "03859", 
-        "open": "16", 
+        "open": "15", 
         "teacher": "S. Cook"
       }
     ], 
@@ -8236,7 +8236,7 @@
         "section": "0101", 
         "seats": "250", 
         "course_id": "03909", 
-        "open": "129", 
+        "open": "128", 
         "teacher": "D. Shaltanis"
       }
     ], 
@@ -8262,7 +8262,7 @@
         "section": "0101", 
         "seats": "40", 
         "course_id": "03920", 
-        "open": "27", 
+        "open": "26", 
         "teacher": "J. Titkemeier"
       }, 
       {
@@ -8292,7 +8292,7 @@
         "section": "0103", 
         "seats": "18", 
         "course_id": "03922", 
-        "open": "6", 
+        "open": "5", 
         "teacher": "J. Titkemeier"
       }
     ], 
@@ -8318,7 +8318,7 @@
         "section": "0101", 
         "seats": "49", 
         "course_id": "03932", 
-        "open": "19", 
+        "open": "20", 
         "teacher": "D. Shaltanis"
       }, 
       {
@@ -8374,7 +8374,7 @@
         "section": "0101", 
         "seats": "25", 
         "course_id": "03944", 
-        "open": "19", 
+        "open": "18", 
         "teacher": "V. Gonzalez"
       }, 
       {
@@ -8505,7 +8505,7 @@
         "teacher": "L. Martinez"
       }, 
       {
-        "waitlist": "1", 
+        "waitlist": "2", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -8773,7 +8773,7 @@
         "section": "0102", 
         "seats": "31", 
         "course_id": "04062", 
-        "open": "9", 
+        "open": "8", 
         "teacher": "S. Hill"
       }, 
       {
@@ -8956,7 +8956,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "21", 
+        "waitlist": "22", 
         "class_times": [
           {
             "start_time": "12:30pm", 
@@ -9008,7 +9008,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "10", 
+        "waitlist": "11", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -9045,7 +9045,7 @@
         "section": "0101", 
         "seats": "30", 
         "course_id": "04151", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "M. Bari"
       }
     ], 
@@ -9242,7 +9242,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "10", 
+        "waitlist": "11", 
         "class_times": [
           {
             "start_time": "12:30pm", 
@@ -9525,7 +9525,7 @@
         "section": "0301", 
         "seats": "18", 
         "course_id": "04474", 
-        "open": "1", 
+        "open": "2", 
         "teacher": "W. Jacobs"
       }, 
       {
@@ -9645,7 +9645,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "10", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "9:00am", 
@@ -9902,7 +9902,7 @@
         "teacher": "W. Richardson"
       }, 
       {
-        "waitlist": "5", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "6:00pm", 
@@ -11976,7 +11976,7 @@
         "section": "0101", 
         "seats": "50", 
         "course_id": "05469", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "M. Ricotti"
       }
     ], 
@@ -13537,7 +13537,7 @@
         "section": "0101", 
         "seats": "15", 
         "course_id": "06708", 
-        "open": "11", 
+        "open": "10", 
         "teacher": "G. Borgia"
       }
     ], 
@@ -13609,7 +13609,7 @@
         "section": "0101", 
         "seats": "10", 
         "course_id": "06728", 
-        "open": "2", 
+        "open": "1", 
         "teacher": "W. Fagan"
       }
     ], 
@@ -13891,7 +13891,7 @@
         "teacher": "C. Hakenkamp"
       }, 
       {
-        "waitlist": "10", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "12:30pm", 
@@ -14155,7 +14155,7 @@
     "details": "CORE Interdisciplinary & Emerging Issues (IE) Course.", 
     "sections": [
       {
-        "waitlist": "2", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "12:30pm", 
@@ -14530,7 +14530,7 @@
         "section": "0102", 
         "seats": "36", 
         "course_id": "07296", 
-        "open": "17", 
+        "open": "18", 
         "teacher": "G. Pfeiffer"
       }, 
       {
@@ -14570,7 +14570,7 @@
         "section": "0104", 
         "seats": "36", 
         "course_id": "07298", 
-        "open": "4", 
+        "open": "3", 
         "teacher": "G. Pfeiffer"
       }, 
       {
@@ -14907,7 +14907,7 @@
         "section": "0101", 
         "seats": "32", 
         "course_id": "07332", 
-        "open": "5", 
+        "open": "6", 
         "teacher": "R. Lazar"
       }, 
       {
@@ -14967,7 +14967,7 @@
         "section": "0104", 
         "seats": "27", 
         "course_id": "07335", 
-        "open": "10", 
+        "open": "9", 
         "teacher": "R. Lazar"
       }, 
       {
@@ -14987,7 +14987,7 @@
         "section": "0105", 
         "seats": "20", 
         "course_id": "07336", 
-        "open": "2", 
+        "open": "1", 
         "teacher": "R. Lazar"
       }, 
       {
@@ -15027,7 +15027,7 @@
         "section": "0107", 
         "seats": "25", 
         "course_id": "07338", 
-        "open": "8", 
+        "open": "9", 
         "teacher": "R. Lazar"
       }, 
       {
@@ -15727,7 +15727,7 @@
         "section": "0101", 
         "seats": "60", 
         "course_id": "07399", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "M. Wellman"
       }
     ], 
@@ -15768,7 +15768,7 @@
         "section": "0201", 
         "seats": "54", 
         "course_id": "07421", 
-        "open": "15", 
+        "open": "14", 
         "teacher": "S. Viswanathan"
       }, 
       {
@@ -15787,7 +15787,7 @@
         "teacher": "C. Anderson"
       }, 
       {
-        "waitlist": "6", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -15828,7 +15828,7 @@
         "section": "0601", 
         "seats": "54", 
         "course_id": "07425", 
-        "open": "13", 
+        "open": "12", 
         "teacher": "B. Corwin"
       }
     ], 
@@ -16462,7 +16462,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "5", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "7:00pm", 
@@ -16917,7 +16917,7 @@
         "teacher": "J. Armstrong"
       }, 
       {
-        "waitlist": "1", 
+        "waitlist": "2", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -17082,7 +17082,7 @@
         "section": "0101", 
         "seats": "40", 
         "course_id": "07727", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "L. Gardner"
       }, 
       {
@@ -17097,7 +17097,7 @@
         "section": "0201", 
         "seats": "40", 
         "course_id": "07728", 
-        "open": "9", 
+        "open": "8", 
         "teacher": "L. Gardner"
       }
     ], 
@@ -17239,7 +17239,7 @@
         "section": "0301", 
         "seats": "54", 
         "course_id": "07757", 
-        "open": "19", 
+        "open": "20", 
         "teacher": "R. Daniels"
       }, 
       {
@@ -17531,7 +17531,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "1", 
+        "waitlist": "0", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -17567,7 +17567,7 @@
         "section": "0201", 
         "seats": "31", 
         "course_id": "08006", 
-        "open": "9", 
+        "open": "8", 
         "teacher": "C. Anderson"
       }
     ], 
@@ -17772,7 +17772,7 @@
         "section": "0301", 
         "seats": "36", 
         "course_id": "08061", 
-        "open": "6", 
+        "open": "7", 
         "teacher": "J. Staihar"
       }, 
       {
@@ -17869,7 +17869,7 @@
         "section": "0301", 
         "seats": "36", 
         "course_id": "08086", 
-        "open": "2", 
+        "open": "1", 
         "teacher": "J. McKinney"
       }
     ], 
@@ -18181,7 +18181,7 @@
         "section": "0301", 
         "seats": "36", 
         "course_id": "08167", 
-        "open": "10", 
+        "open": "9", 
         "teacher": "J. Perfetti"
       }, 
       {
@@ -18196,7 +18196,7 @@
         "section": "0401", 
         "seats": "36", 
         "course_id": "08168", 
-        "open": "1", 
+        "open": "2", 
         "teacher": "J. Perfetti"
       }
     ], 
@@ -18248,7 +18248,7 @@
         "section": "0101", 
         "seats": "40", 
         "course_id": "08188", 
-        "open": "16", 
+        "open": "15", 
         "teacher": "E. Cohen-Cole"
       }, 
       {
@@ -18278,7 +18278,7 @@
         "section": "0301", 
         "seats": "40", 
         "course_id": "08190", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "E. Cohen-Cole"
       }
     ], 
@@ -18645,7 +18645,7 @@
         "section": "0101", 
         "seats": "45", 
         "course_id": "08344", 
-        "open": "3", 
+        "open": "4", 
         "teacher": "W. Moe"
       }, 
       {
@@ -18851,7 +18851,7 @@
         "section": "0101", 
         "seats": "44", 
         "course_id": "08437", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "P. Evers"
       }
     ], 
@@ -19312,7 +19312,7 @@
         "teacher": "G. Langa"
       }, 
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -22627,7 +22627,7 @@
         "teacher": "D. Straney"
       }, 
       {
-        "waitlist": "2", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "10:00am", 
@@ -23221,7 +23221,7 @@
         "section": "0101", 
         "seats": "50", 
         "course_id": "09761", 
-        "open": "25", 
+        "open": "24", 
         "teacher": "K. Thompson"
       }
     ], 
@@ -23442,7 +23442,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "3", 
+        "waitlist": "2", 
         "class_times": [
           {
             "start_time": "9:00am", 
@@ -23462,7 +23462,7 @@
         "teacher": "R. Payne"
       }, 
       {
-        "waitlist": "7", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "9:00am", 
@@ -23502,7 +23502,7 @@
         "teacher": "R. Payne"
       }, 
       {
-        "waitlist": "5", 
+        "waitlist": "4", 
         "class_times": [
           {
             "start_time": "9:00am", 
@@ -23542,7 +23542,7 @@
         "teacher": "R. Payne"
       }, 
       {
-        "waitlist": "3", 
+        "waitlist": "2", 
         "class_times": [
           {
             "start_time": "9:00am", 
@@ -23582,7 +23582,7 @@
         "teacher": "R. Payne"
       }, 
       {
-        "waitlist": "4", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "9:00am", 
@@ -23602,7 +23602,7 @@
         "teacher": "R. Payne"
       }, 
       {
-        "waitlist": "6", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "9:00am", 
@@ -23838,7 +23838,7 @@
         "section": "1109", 
         "seats": "24", 
         "course_id": "09988", 
-        "open": "3", 
+        "open": "2", 
         "teacher": "H. Sze and J. Kwak"
       }
     ], 
@@ -24065,7 +24065,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "10071", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "A. Villamagna"
       }, 
       {
@@ -24080,7 +24080,7 @@
         "section": "0201", 
         "seats": "20", 
         "course_id": "10072", 
-        "open": "1", 
+        "open": "2", 
         "teacher": "A. Villamagna"
       }
     ], 
@@ -24780,7 +24780,7 @@
         "teacher": "K. Frauwirth and D. Mosser"
       }, 
       {
-        "waitlist": "5", 
+        "waitlist": "4", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -24888,7 +24888,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -25107,7 +25107,7 @@
         "section": "0104", 
         "seats": "20", 
         "course_id": "10701", 
-        "open": "4", 
+        "open": "3", 
         "teacher": "W. Higgins"
       }, 
       {
@@ -25947,7 +25947,7 @@
         "section": "0101", 
         "seats": "35", 
         "course_id": "11404", 
-        "open": "10", 
+        "open": "11", 
         "teacher": "R. Wermers"
       }
     ], 
@@ -26992,7 +26992,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "3", 
+        "waitlist": "2", 
         "class_times": [
           {
             "start_time": "1:00pm", 
@@ -27934,7 +27934,7 @@
         "section": "0104", 
         "seats": "30", 
         "course_id": "13103", 
-        "open": "4", 
+        "open": "3", 
         "teacher": "K. Kozey"
       }, 
       {
@@ -28054,7 +28054,7 @@
         "section": "0110", 
         "seats": "30", 
         "course_id": "13109", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "K. Kozey"
       }, 
       {
@@ -28094,7 +28094,7 @@
         "section": "0202", 
         "seats": "30", 
         "course_id": "13111", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "J. Gibbs"
       }, 
       {
@@ -28314,7 +28314,7 @@
         "section": "0303", 
         "seats": "30", 
         "course_id": "13122", 
-        "open": "11", 
+        "open": "10", 
         "teacher": "K. Nakamura"
       }, 
       {
@@ -29211,7 +29211,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "7", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -29315,7 +29315,7 @@
         "section": "0101", 
         "seats": "32", 
         "course_id": "13456", 
-        "open": "19", 
+        "open": "20", 
         "teacher": "C. Wellford"
       }
     ], 
@@ -29791,7 +29791,7 @@
         "section": "1135", 
         "seats": "35", 
         "course_id": "13821", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "A. Mignerey"
       }, 
       {
@@ -30281,7 +30281,7 @@
         "teacher": "M. Jones"
       }, 
       {
-        "waitlist": "3", 
+        "waitlist": "2", 
         "class_times": [
           {
             "start_time": "6:00pm", 
@@ -30371,7 +30371,7 @@
         "teacher": "M. Jones"
       }, 
       {
-        "waitlist": "2", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -30416,7 +30416,7 @@
         "teacher": "M. Jones"
       }, 
       {
-        "waitlist": "1", 
+        "waitlist": "2", 
         "class_times": [
           {
             "start_time": "3:00pm", 
@@ -31116,7 +31116,7 @@
         "section": "5121", 
         "seats": "18", 
         "course_id": "13959", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "M. Jones"
       }, 
       {
@@ -31221,7 +31221,7 @@
         "section": "5143", 
         "seats": "18", 
         "course_id": "13967", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "M. Jones"
       }, 
       {
@@ -31833,7 +31833,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "8:00am", 
@@ -31953,7 +31953,7 @@
         "teacher": "M. Montague-Smith"
       }, 
       {
-        "waitlist": "3", 
+        "waitlist": "4", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -32013,7 +32013,7 @@
         "teacher": "D. Falvey"
       }, 
       {
-        "waitlist": "3", 
+        "waitlist": "4", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -32380,7 +32380,7 @@
         "section": "6241", 
         "seats": "18", 
         "course_id": "14069", 
-        "open": "2", 
+        "open": "1", 
         "teacher": "D. Steffek"
       }, 
       {
@@ -32485,7 +32485,7 @@
         "section": "6341", 
         "seats": "18", 
         "course_id": "14077", 
-        "open": "2", 
+        "open": "3", 
         "teacher": "D. Steffek"
       }, 
       {
@@ -32515,7 +32515,7 @@
         "section": "6412", 
         "seats": "18", 
         "course_id": "14079", 
-        "open": "5", 
+        "open": "4", 
         "teacher": "D. Steffek"
       }, 
       {
@@ -32977,7 +32977,7 @@
         "section": "7331", 
         "seats": "24", 
         "course_id": "14121", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "L. Friedman"
       }, 
       {
@@ -33317,7 +33317,7 @@
         "section": "8511", 
         "seats": "24", 
         "course_id": "14135", 
-        "open": "4", 
+        "open": "5", 
         "teacher": "L. Friedman"
       }
     ], 
@@ -33972,7 +33972,7 @@
         "section": "0101", 
         "seats": "15", 
         "course_id": "14524", 
-        "open": "4", 
+        "open": "5", 
         "teacher": "Y. Wang"
       }
     ], 
@@ -34236,7 +34236,7 @@
         "section": "0101", 
         "seats": "15", 
         "course_id": "14671", 
-        "open": "12", 
+        "open": "11", 
         "teacher": "A. Mignerey"
       }
     ], 
@@ -36867,7 +36867,7 @@
         "section": "0101", 
         "seats": "40", 
         "course_id": "16471", 
-        "open": "2", 
+        "open": "1", 
         "teacher": "C. Kruskal"
       }
     ], 
@@ -38757,7 +38757,7 @@
     "details": "CORE Diversity (D) Course.", 
     "sections": [
       {
-        "waitlist": "25", 
+        "waitlist": "24", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -39208,7 +39208,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "7", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -39268,7 +39268,7 @@
         "teacher": "E. Fink"
       }, 
       {
-        "waitlist": "6", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -39601,7 +39601,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "30", 
+        "waitlist": "29", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -39616,7 +39616,7 @@
         "teacher": "M. Liu"
       }, 
       {
-        "waitlist": "28", 
+        "waitlist": "27", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -39771,7 +39771,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "56", 
+        "waitlist": "55", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -40411,7 +40411,7 @@
         "section": "0101", 
         "seats": "80", 
         "course_id": "18550", 
-        "open": "11", 
+        "open": "10", 
         "teacher": "H. Burgess"
       }
     ], 
@@ -41454,7 +41454,7 @@
         "section": "0301", 
         "seats": "20", 
         "course_id": "18872", 
-        "open": "7", 
+        "open": "5", 
         "teacher": "J. DeGeorge"
       }
     ], 
@@ -41520,7 +41520,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "18998", 
-        "open": "14", 
+        "open": "13", 
         "teacher": "J. Littlefield"
       }
     ], 
@@ -41704,7 +41704,7 @@
         "teacher": "G. Brown"
       }, 
       {
-        "waitlist": "2", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -43220,7 +43220,7 @@
         "section": "2210", 
         "seats": "30", 
         "course_id": "19702", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "A. Gandhi"
       }, 
       {
@@ -43320,7 +43320,7 @@
         "section": "2302", 
         "seats": "30", 
         "course_id": "19707", 
-        "open": "13", 
+        "open": "14", 
         "teacher": "C. Clement"
       }, 
       {
@@ -43400,7 +43400,7 @@
         "section": "2306", 
         "seats": "30", 
         "course_id": "19711", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "C. Clement"
       }, 
       {
@@ -43702,7 +43702,7 @@
         "section": "1101", 
         "seats": "420", 
         "course_id": "19745", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "N. Sarna"
       }, 
       {
@@ -43894,7 +43894,7 @@
         "section": "0101", 
         "seats": "260", 
         "course_id": "19772", 
-        "open": "122", 
+        "open": "121", 
         "teacher": "J. Neri"
       }
     ], 
@@ -43961,7 +43961,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "7", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "5:00pm", 
@@ -43976,7 +43976,7 @@
         "teacher": "N. Sarna"
       }, 
       {
-        "waitlist": "15", 
+        "waitlist": "14", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -44043,7 +44043,7 @@
         "section": "0101", 
         "seats": "40", 
         "course_id": "19825", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "A. Gandhi"
       }, 
       {
@@ -44058,7 +44058,7 @@
         "section": "0201", 
         "seats": "220", 
         "course_id": "19826", 
-        "open": "44", 
+        "open": "45", 
         "teacher": "A. Gandhi"
       }
     ], 
@@ -44773,7 +44773,7 @@
         "teacher": "Y. Mimir"
       }, 
       {
-        "waitlist": "28", 
+        "waitlist": "27", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -47140,7 +47140,7 @@
         "section": "0201", 
         "seats": "30", 
         "course_id": "21021", 
-        "open": "14", 
+        "open": "13", 
         "teacher": "S. De La Paz"
       }
     ], 
@@ -48708,7 +48708,7 @@
     "details": "CORE Behavioral and Social Science (SB) Course. CORE Diversity (D) Course.", 
     "sections": [
       {
-        "waitlist": "2", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -48723,7 +48723,7 @@
         "teacher": "M. Yang"
       }, 
       {
-        "waitlist": "4", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -49247,7 +49247,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "22189", 
-        "open": "6", 
+        "open": "5", 
         "teacher": "J. Garvey"
       }
     ], 
@@ -51094,7 +51094,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "11", 
+        "waitlist": "12", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -51109,7 +51109,7 @@
         "teacher": "S. Russell"
       }, 
       {
-        "waitlist": "5", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "4:15pm", 
@@ -51124,7 +51124,7 @@
         "teacher": "C. Richardson"
       }, 
       {
-        "waitlist": "12", 
+        "waitlist": "13", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -51154,7 +51154,7 @@
         "teacher": "D. Morrison"
       }, 
       {
-        "waitlist": "7", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -51184,7 +51184,7 @@
         "teacher": "A. Donlan"
       }, 
       {
-        "waitlist": "7", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -51214,7 +51214,7 @@
         "teacher": "M. Duchene"
       }, 
       {
-        "waitlist": "13", 
+        "waitlist": "14", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -51274,7 +51274,7 @@
         "teacher": "S. Baker"
       }, 
       {
-        "waitlist": "8", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "4:15pm", 
@@ -51304,7 +51304,7 @@
         "teacher": "E. Grossnickle"
       }, 
       {
-        "waitlist": "7", 
+        "waitlist": "8", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -56697,7 +56697,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "7", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "5:00pm", 
@@ -57025,7 +57025,7 @@
         "section": "0101", 
         "seats": "25", 
         "course_id": "26378", 
-        "open": "9", 
+        "open": "8", 
         "teacher": "C. Schwartz"
       }
     ], 
@@ -58522,7 +58522,7 @@
         "teacher": "W. Hawkins"
       }, 
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -58542,7 +58542,7 @@
         "teacher": "D. Yeung"
       }, 
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -58562,7 +58562,7 @@
         "teacher": "D. Yeung"
       }, 
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -58971,7 +58971,7 @@
         "section": "0101", 
         "seats": "25", 
         "course_id": "27348", 
-        "open": "3", 
+        "open": "1", 
         "teacher": "G. Blankenship"
       }, 
       {
@@ -60889,7 +60889,7 @@
         "section": "0101", 
         "seats": "30", 
         "course_id": "28053", 
-        "open": "11", 
+        "open": "10", 
         "teacher": "G. Qu"
       }
     ], 
@@ -61888,7 +61888,7 @@
         "section": "0101", 
         "seats": "45", 
         "course_id": "28809", 
-        "open": "18", 
+        "open": "17", 
         "teacher": "J. Green"
       }
     ], 
@@ -61919,7 +61919,7 @@
         "section": "0101", 
         "seats": "45", 
         "course_id": "28819", 
-        "open": "12", 
+        "open": "10", 
         "teacher": "J. Green and T. Mierzwa"
       }
     ], 
@@ -62959,7 +62959,7 @@
         "teacher": "E. Veisz"
       }, 
       {
-        "waitlist": "2", 
+        "waitlist": "0", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -62970,7 +62970,7 @@
         "section": "0901", 
         "seats": "35", 
         "course_id": "29371", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "E. Veisz"
       }
     ], 
@@ -62985,7 +62985,7 @@
     "details": "CORE Literature (HL) Course.", 
     "sections": [
       {
-        "waitlist": "0", 
+        "waitlist": "10", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -63022,7 +63022,7 @@
         "section": "0301", 
         "seats": "35", 
         "course_id": "29391", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "S. Higby"
       }
     ], 
@@ -63077,7 +63077,7 @@
     "details": "CORE Literature (HL) Course.", 
     "sections": [
       {
-        "waitlist": "0", 
+        "waitlist": "2", 
         "class_times": [
           {
             "start_time": "1:00pm", 
@@ -63088,7 +63088,7 @@
         "section": "0102", 
         "seats": "35", 
         "course_id": "29479", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "D. Pressley"
       }
     ], 
@@ -63123,7 +63123,7 @@
     "details": "CORE Literature (HL) Course. CORE Diversity (D) Course.", 
     "sections": [
       {
-        "waitlist": "0", 
+        "waitlist": "11", 
         "class_times": [
           {
             "start_time": "1:00pm", 
@@ -63279,7 +63279,7 @@
         "section": "0101", 
         "seats": "35", 
         "course_id": "29581", 
-        "open": "14", 
+        "open": "15", 
         "teacher": "K. Camper"
       }
     ], 
@@ -63294,7 +63294,7 @@
     "details": "CORE Literature (HL) Course.", 
     "sections": [
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -63330,7 +63330,7 @@
         "section": "0102", 
         "seats": "22", 
         "course_id": "29592", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "M. Mack"
       }, 
       {
@@ -63350,7 +63350,7 @@
         "section": "0103", 
         "seats": "22", 
         "course_id": "29593", 
-        "open": "2", 
+        "open": "0", 
         "teacher": "M. Mack"
       }, 
       {
@@ -63390,7 +63390,7 @@
         "section": "0105", 
         "seats": "22", 
         "course_id": "29595", 
-        "open": "12", 
+        "open": "10", 
         "teacher": "M. Mack"
       }, 
       {
@@ -63410,7 +63410,7 @@
         "section": "0106", 
         "seats": "22", 
         "course_id": "29596", 
-        "open": "12", 
+        "open": "9", 
         "teacher": "M. Mack"
       }
     ], 
@@ -63441,11 +63441,11 @@
         "section": "0101", 
         "seats": "22", 
         "course_id": "29606", 
-        "open": "4", 
+        "open": "1", 
         "teacher": "L. Kauffman"
       }, 
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -63461,7 +63461,7 @@
         "section": "0102", 
         "seats": "22", 
         "course_id": "29607", 
-        "open": "3", 
+        "open": "0", 
         "teacher": "L. Kauffman"
       }, 
       {
@@ -63481,7 +63481,7 @@
         "section": "0103", 
         "seats": "22", 
         "course_id": "29608", 
-        "open": "3", 
+        "open": "0", 
         "teacher": "L. Kauffman"
       }, 
       {
@@ -63501,7 +63501,7 @@
         "section": "0104", 
         "seats": "22", 
         "course_id": "29609", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "L. Kauffman"
       }, 
       {
@@ -63602,7 +63602,7 @@
         "teacher": "N. Siela"
       }, 
       {
-        "waitlist": "8", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -63658,7 +63658,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "10", 
+        "waitlist": "11", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -64889,7 +64889,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "19", 
+        "waitlist": "20", 
         "class_times": [
           {
             "start_time": "9:00am", 
@@ -64909,7 +64909,7 @@
         "teacher": "M. Shea"
       }, 
       {
-        "waitlist": "16", 
+        "waitlist": "17", 
         "class_times": [
           {
             "start_time": "10:00am", 
@@ -64929,7 +64929,7 @@
         "teacher": "M. Shea"
       }, 
       {
-        "waitlist": "13", 
+        "waitlist": "15", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -64949,7 +64949,7 @@
         "teacher": "M. Shea"
       }, 
       {
-        "waitlist": "16", 
+        "waitlist": "17", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -64969,7 +64969,7 @@
         "teacher": "M. Arnold"
       }, 
       {
-        "waitlist": "18", 
+        "waitlist": "19", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -64989,7 +64989,7 @@
         "teacher": "M. Arnold"
       }, 
       {
-        "waitlist": "13", 
+        "waitlist": "14", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -65055,7 +65055,7 @@
         "teacher": "M. Forrester"
       }, 
       {
-        "waitlist": "13", 
+        "waitlist": "12", 
         "class_times": [
           {
             "start_time": "10:00am", 
@@ -65075,7 +65075,7 @@
         "teacher": "E. Turkman"
       }, 
       {
-        "waitlist": "11", 
+        "waitlist": "10", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -65095,7 +65095,7 @@
         "teacher": "E. Turkman"
       }, 
       {
-        "waitlist": "8", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -65110,7 +65110,7 @@
         "teacher": "R. Crane"
       }, 
       {
-        "waitlist": "8", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -65140,7 +65140,7 @@
         "teacher": "S. Pleydell"
       }, 
       {
-        "waitlist": "9", 
+        "waitlist": "10", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -65190,7 +65190,7 @@
         "teacher": "M. Faith"
       }, 
       {
-        "waitlist": "10", 
+        "waitlist": "11", 
         "class_times": [
           {
             "start_time": "12:30pm", 
@@ -65245,7 +65245,7 @@
         "teacher": "A. Mason"
       }, 
       {
-        "waitlist": "13", 
+        "waitlist": "12", 
         "class_times": [
           {
             "start_time": "6:30pm", 
@@ -65260,7 +65260,7 @@
         "teacher": "M. Fitzgerald"
       }, 
       {
-        "waitlist": "12", 
+        "waitlist": "11", 
         "class_times": [
           {
             "start_time": "6:30pm", 
@@ -65312,7 +65312,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "15", 
+        "waitlist": "16", 
         "class_times": [
           {
             "start_time": "9:00am", 
@@ -65332,7 +65332,7 @@
         "teacher": "R. Earnest"
       }, 
       {
-        "waitlist": "16", 
+        "waitlist": "17", 
         "class_times": [
           {
             "start_time": "10:00am", 
@@ -65352,7 +65352,7 @@
         "teacher": "R. Earnest"
       }, 
       {
-        "waitlist": "19", 
+        "waitlist": "20", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -65372,7 +65372,7 @@
         "teacher": "R. Earnest"
       }, 
       {
-        "waitlist": "16", 
+        "waitlist": "17", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -65412,7 +65412,7 @@
         "teacher": "W. Schatz"
       }, 
       {
-        "waitlist": "18", 
+        "waitlist": "19", 
         "class_times": [
           {
             "start_time": "12:30pm", 
@@ -65447,7 +65447,7 @@
         "teacher": "M. Winett"
       }, 
       {
-        "waitlist": "20", 
+        "waitlist": "21", 
         "class_times": [
           {
             "start_time": "6:30pm", 
@@ -65633,7 +65633,7 @@
         "teacher": "Z. Heckscher"
       }, 
       {
-        "waitlist": "16", 
+        "waitlist": "15", 
         "class_times": [
           {
             "start_time": "5:00pm", 
@@ -65653,7 +65653,7 @@
         "teacher": "Z. Heckscher"
       }, 
       {
-        "waitlist": "13", 
+        "waitlist": "14", 
         "class_times": [
           {
             "start_time": "5:00pm", 
@@ -65668,7 +65668,7 @@
         "teacher": "R. Crider"
       }, 
       {
-        "waitlist": "15", 
+        "waitlist": "14", 
         "class_times": [
           {
             "start_time": "8:00am", 
@@ -65728,7 +65728,7 @@
         "teacher": "K. Cresap"
       }, 
       {
-        "waitlist": "17", 
+        "waitlist": "16", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -65748,7 +65748,7 @@
         "teacher": "C. Inukai"
       }, 
       {
-        "waitlist": "12", 
+        "waitlist": "13", 
         "class_times": [
           {
             "start_time": "12:30pm", 
@@ -65783,7 +65783,7 @@
         "teacher": "C. Inukai"
       }, 
       {
-        "waitlist": "14", 
+        "waitlist": "15", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -66196,7 +66196,7 @@
         "teacher": "D. McNeilly"
       }, 
       {
-        "waitlist": "4", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -66216,7 +66216,7 @@
         "teacher": "E. Blumner"
       }, 
       {
-        "waitlist": "6", 
+        "waitlist": "7", 
         "class_times": [
           {
             "start_time": "5:00pm", 
@@ -66296,7 +66296,7 @@
         "teacher": "C. Parsons"
       }, 
       {
-        "waitlist": "8", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "12:30pm", 
@@ -66366,7 +66366,7 @@
         "teacher": "T. Lowderbaugh"
       }, 
       {
-        "waitlist": "6", 
+        "waitlist": "7", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -66386,7 +66386,7 @@
         "teacher": "S. Maskell"
       }, 
       {
-        "waitlist": "6", 
+        "waitlist": "7", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -66401,7 +66401,7 @@
         "teacher": "D. McGlew"
       }, 
       {
-        "waitlist": "5", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "5:00pm", 
@@ -66416,7 +66416,7 @@
         "teacher": "D. McGlew"
       }, 
       {
-        "waitlist": "6", 
+        "waitlist": "7", 
         "class_times": [
           {
             "start_time": "5:00pm", 
@@ -66477,7 +66477,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "24", 
+        "waitlist": "25", 
         "class_times": [
           {
             "start_time": "9:00am", 
@@ -66492,7 +66492,7 @@
         "teacher": "P. Moses"
       }, 
       {
-        "waitlist": "31", 
+        "waitlist": "32", 
         "class_times": [
           {
             "start_time": "10:00am", 
@@ -66507,7 +66507,7 @@
         "teacher": "P. Moses"
       }, 
       {
-        "waitlist": "27", 
+        "waitlist": "28", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -66522,7 +66522,7 @@
         "teacher": "P. Moses"
       }, 
       {
-        "waitlist": "29", 
+        "waitlist": "30", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -66542,7 +66542,7 @@
         "teacher": "E. Colson"
       }, 
       {
-        "waitlist": "44", 
+        "waitlist": "45", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -66582,7 +66582,7 @@
         "teacher": "W. Knorr"
       }, 
       {
-        "waitlist": "28", 
+        "waitlist": "29", 
         "class_times": [
           {
             "start_time": "5:00pm", 
@@ -66762,7 +66762,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "8", 
+        "waitlist": "7", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -67019,7 +67019,7 @@
         "section": "0101", 
         "seats": "30", 
         "course_id": "30399", 
-        "open": "1", 
+        "open": "3", 
         "teacher": "K. Mudan"
       }
     ], 
@@ -67434,7 +67434,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "9", 
+        "waitlist": "8", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -69625,7 +69625,7 @@
         "section": "0102", 
         "seats": "24", 
         "course_id": "31925", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "J. Kim and S. Bergbreiter"
       }, 
       {
@@ -69705,7 +69705,7 @@
         "section": "0106", 
         "seats": "24", 
         "course_id": "31930", 
-        "open": "4", 
+        "open": "5", 
         "teacher": "J. Kim and S. Bergbreiter"
       }
     ], 
@@ -70000,7 +70000,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "6", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -70026,7 +70026,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "8", 
+        "waitlist": "7", 
         "class_times": [
           {
             "start_time": "8:00am", 
@@ -70063,7 +70063,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "32017", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "R. Sanders"
       }
     ], 
@@ -70758,7 +70758,7 @@
         "section": "0101", 
         "seats": "25", 
         "course_id": "32315", 
-        "open": "8", 
+        "open": "9", 
         "teacher": "A. Baz"
       }
     ], 
@@ -71012,7 +71012,7 @@
         "section": "0101", 
         "seats": "30", 
         "course_id": "32461", 
-        "open": "20", 
+        "open": "21", 
         "teacher": "E. Magrab"
       }
     ], 
@@ -73914,7 +73914,7 @@
         "section": "0101", 
         "seats": "25", 
         "course_id": "34667", 
-        "open": "20", 
+        "open": "19", 
         "teacher": "M. Lee"
       }
     ], 
@@ -74234,7 +74234,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "5", 
+        "waitlist": "4", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -74531,7 +74531,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "9", 
+        "waitlist": "8", 
         "class_times": [
           {
             "start_time": "9:00am", 
@@ -75389,7 +75389,7 @@
         "section": "0301", 
         "seats": "25", 
         "course_id": "35424", 
-        "open": "1", 
+        "open": "2", 
         "teacher": "C. Gomolka"
       }
     ], 
@@ -77780,7 +77780,7 @@
         "section": "0101", 
         "seats": "24", 
         "course_id": "35962", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "M. Geores and A. Enrici"
       }, 
       {
@@ -79066,7 +79066,7 @@
         "teacher": "T. Centorbi"
       }, 
       {
-        "waitlist": "3", 
+        "waitlist": "4", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -79255,7 +79255,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "36659", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "S. Kaushal"
       }, 
       {
@@ -79910,7 +79910,7 @@
         "section": "0101", 
         "seats": "42", 
         "course_id": "36842", 
-        "open": "7", 
+        "open": "6", 
         "teacher": "W. Zhu"
       }
     ], 
@@ -82110,7 +82110,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "8", 
+        "waitlist": "7", 
         "class_times": [
           {
             "start_time": "10:00am", 
@@ -82420,7 +82420,7 @@
         "section": "0106", 
         "seats": "25", 
         "course_id": "37794", 
-        "open": "3", 
+        "open": "4", 
         "teacher": "D. Grob"
       }, 
       {
@@ -82500,7 +82500,7 @@
         "section": "0204", 
         "seats": "25", 
         "course_id": "37798", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "A. Nemeth"
       }, 
       {
@@ -83275,7 +83275,7 @@
         "section": "0101", 
         "seats": "30", 
         "course_id": "38406", 
-        "open": "3", 
+        "open": "4", 
         "teacher": "D. Grob"
       }
     ], 
@@ -83517,7 +83517,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "5", 
+        "waitlist": "4", 
         "class_times": [
           {
             "start_time": "4:00pm", 
@@ -86097,7 +86097,7 @@
         "section": "0103", 
         "seats": "20", 
         "course_id": "39911", 
-        "open": "11", 
+        "open": "12", 
         "teacher": "S. Adelman"
       }, 
       {
@@ -86217,7 +86217,7 @@
         "section": "0109", 
         "seats": "20", 
         "course_id": "39917", 
-        "open": "3", 
+        "open": "2", 
         "teacher": "S. Adelman"
       }, 
       {
@@ -86988,7 +86988,7 @@
         "section": "0211", 
         "seats": "20", 
         "course_id": "39964", 
-        "open": "5", 
+        "open": "6", 
         "teacher": "E. Landau"
       }, 
       {
@@ -87250,7 +87250,7 @@
         "section": "0103", 
         "seats": "20", 
         "course_id": "39994", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "E. Milam"
       }, 
       {
@@ -87546,7 +87546,7 @@
         "section": "0103", 
         "seats": "20", 
         "course_id": "40062", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "K. Keane"
       }, 
       {
@@ -87606,7 +87606,7 @@
         "section": "0106", 
         "seats": "20", 
         "course_id": "40065", 
-        "open": "5", 
+        "open": "6", 
         "teacher": "K. Keane"
       }, 
       {
@@ -87646,7 +87646,7 @@
         "section": "0108", 
         "seats": "20", 
         "course_id": "40067", 
-        "open": "5", 
+        "open": "4", 
         "teacher": "K. Keane"
       }
     ], 
@@ -87844,7 +87844,7 @@
         "section": "0103", 
         "seats": "20", 
         "course_id": "40112", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "L. Mar"
       }, 
       {
@@ -87915,7 +87915,7 @@
         "section": "0102", 
         "seats": "20", 
         "course_id": "40124", 
-        "open": "1", 
+        "open": "2", 
         "teacher": "J. Sumida"
       }, 
       {
@@ -88223,7 +88223,7 @@
         "section": "0103", 
         "seats": "20", 
         "course_id": "40165", 
-        "open": "14", 
+        "open": "15", 
         "teacher": "J. Lampe"
       }, 
       {
@@ -88314,7 +88314,7 @@
         "section": "0103", 
         "seats": "20", 
         "course_id": "40178", 
-        "open": "7", 
+        "open": "6", 
         "teacher": "D. Williams"
       }, 
       {
@@ -88334,7 +88334,7 @@
         "section": "0104", 
         "seats": "20", 
         "course_id": "40179", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "D. Williams"
       }
     ], 
@@ -88405,7 +88405,7 @@
         "section": "0104", 
         "seats": "20", 
         "course_id": "40192", 
-        "open": "9", 
+        "open": "8", 
         "teacher": "K. Manekin"
       }, 
       {
@@ -88456,7 +88456,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "40216", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "J. Gao"
       }, 
       {
@@ -88476,7 +88476,7 @@
         "section": "0102", 
         "seats": "20", 
         "course_id": "40217", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "J. Gao"
       }, 
       {
@@ -88591,7 +88591,7 @@
         "teacher": "R. Bell"
       }, 
       {
-        "waitlist": "2", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "1:00pm", 
@@ -89820,7 +89820,7 @@
         "section": "0101", 
         "seats": "35", 
         "course_id": "40737", 
-        "open": "6", 
+        "open": "5", 
         "teacher": "A. Borrut"
       }
     ], 
@@ -89923,7 +89923,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "5", 
+        "waitlist": "4", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -90797,7 +90797,7 @@
         "section": "0101", 
         "seats": "200", 
         "course_id": "41789", 
-        "open": "3", 
+        "open": "1", 
         "teacher": "D. Howard"
       }
     ], 
@@ -90905,7 +90905,7 @@
         "section": "0101", 
         "seats": "200", 
         "course_id": "41821", 
-        "open": "54", 
+        "open": "55", 
         "teacher": "C. Fryer"
       }
     ], 
@@ -90982,7 +90982,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "4", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -91008,7 +91008,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "149", 
+        "waitlist": "148", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -91221,7 +91221,7 @@
     "details": "CORE Diversity (D) Course.", 
     "sections": [
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "10:00am", 
@@ -92072,7 +92072,7 @@
     "details": "CORE Physical Science (PS) Course.", 
     "sections": [
       {
-        "waitlist": "4", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -92306,7 +92306,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "42556", 
-        "open": "3", 
+        "open": "2", 
         "teacher": "J. Newman"
       }
     ], 
@@ -92774,7 +92774,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "42735", 
-        "open": "2", 
+        "open": "3", 
         "teacher": "M. Rowley"
       }
     ], 
@@ -92800,7 +92800,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "42736", 
-        "open": "6", 
+        "open": "7", 
         "teacher": "J. Regier"
       }
     ], 
@@ -93008,7 +93008,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "42795", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "R. Grimm"
       }
     ], 
@@ -93663,7 +93663,7 @@
     "details": "CORE Social or Political History (SH) Course. CORE Diversity (D) Course.", 
     "sections": [
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -93778,7 +93778,7 @@
         "section": "0101", 
         "seats": "40", 
         "course_id": "43480", 
-        "open": "29", 
+        "open": "30", 
         "teacher": "S. Elbedour"
       }
     ], 
@@ -93850,7 +93850,7 @@
         "section": "0101", 
         "seats": "30", 
         "course_id": "43510", 
-        "open": "7", 
+        "open": "6", 
         "teacher": "P. Peri"
       }
     ], 
@@ -93876,7 +93876,7 @@
         "section": "0101", 
         "seats": "25", 
         "course_id": "43575", 
-        "open": "9", 
+        "open": "8", 
         "teacher": "S. Amodeo"
       }
     ], 
@@ -93902,7 +93902,7 @@
         "section": "0101", 
         "seats": "25", 
         "course_id": "43585", 
-        "open": "9", 
+        "open": "8", 
         "teacher": "S. Amodeo"
       }
     ], 
@@ -94265,7 +94265,7 @@
         "teacher": "K. Akikawa"
       }, 
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -94285,7 +94285,7 @@
         "teacher": "R. Seya"
       }, 
       {
-        "waitlist": "4", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -94563,7 +94563,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "2", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "3:00pm", 
@@ -94771,7 +94771,7 @@
         "section": "0101", 
         "seats": "144", 
         "course_id": "44209", 
-        "open": "40", 
+        "open": "41", 
         "teacher": "L. Coleman"
       }
     ], 
@@ -95183,7 +95183,7 @@
         "section": "0101", 
         "seats": "60", 
         "course_id": "44292", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "W. Beecher and D. Nelson and C. Hanson"
       }
     ], 
@@ -97404,7 +97404,7 @@
         "section": "0104", 
         "seats": "20", 
         "course_id": "45353", 
-        "open": "9", 
+        "open": "8", 
         "teacher": "K. Manekin"
       }, 
       {
@@ -98028,7 +98028,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "9", 
+        "waitlist": "10", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -98043,7 +98043,7 @@
         "teacher": "K. Cipriani"
       }, 
       {
-        "waitlist": "7", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -98121,7 +98121,7 @@
         "section": "0002", 
         "seats": "40", 
         "course_id": "45734", 
-        "open": "9", 
+        "open": "6", 
         "teacher": "A. Adams"
       }
     ], 
@@ -98370,7 +98370,7 @@
         "section": "0001", 
         "seats": "22", 
         "course_id": "45825", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "N. Ferdinand"
       }
     ], 
@@ -98493,7 +98493,7 @@
         "teacher": "J. Oldham"
       }, 
       {
-        "waitlist": "15", 
+        "waitlist": "14", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -98534,7 +98534,7 @@
         "teacher": "K. Tredway"
       }, 
       {
-        "waitlist": "10", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -98549,7 +98549,7 @@
         "teacher": "S. Bernstein"
       }, 
       {
-        "waitlist": "1", 
+        "waitlist": "0", 
         "class_times": [
           {
             "start_time": "3:00pm", 
@@ -98564,7 +98564,7 @@
         "teacher": "A. Wiest"
       }, 
       {
-        "waitlist": "2", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -98631,7 +98631,7 @@
         "section": "0001", 
         "seats": "40", 
         "course_id": "45892", 
-        "open": "2", 
+        "open": "3", 
         "teacher": "M. Miller"
       }, 
       {
@@ -98707,7 +98707,7 @@
         "teacher": "R. Mower"
       }, 
       {
-        "waitlist": "10", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -98767,7 +98767,7 @@
         "teacher": "R. Mower"
       }, 
       {
-        "waitlist": "14", 
+        "waitlist": "15", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -99157,7 +99157,7 @@
         "section": "0101", 
         "seats": "18", 
         "course_id": "46028", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "P. Saraswat"
       }, 
       {
@@ -99177,7 +99177,7 @@
         "section": "0102", 
         "seats": "18", 
         "course_id": "46029", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "P. Saraswat"
       }, 
       {
@@ -100511,7 +100511,7 @@
         "section": "0101", 
         "seats": "50", 
         "course_id": "46334", 
-        "open": "16", 
+        "open": "17", 
         "teacher": "R. Gentili"
       }
     ], 
@@ -100563,7 +100563,7 @@
         "section": "0101", 
         "seats": "32", 
         "course_id": "46374", 
-        "open": "1", 
+        "open": "2", 
         "teacher": "M. Rogers"
       }
     ], 
@@ -100887,7 +100887,7 @@
         "section": "0101", 
         "seats": "30", 
         "course_id": "46450", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "M. Rogers"
       }
     ], 
@@ -102162,7 +102162,7 @@
         "section": "0101", 
         "seats": "10", 
         "course_id": "47126", 
-        "open": "1", 
+        "open": "2", 
         "teacher": "S. Rutledge"
       }
     ], 
@@ -103170,7 +103170,7 @@
     "details": "CORE Literature (HL) Course. CORE Diversity (D) Course.", 
     "sections": [
       {
-        "waitlist": "0", 
+        "waitlist": "11", 
         "class_times": [
           {
             "start_time": "1:00pm", 
@@ -103269,7 +103269,7 @@
         "section": "0101", 
         "seats": "35", 
         "course_id": "47779", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "J. Sapinoso"
       }
     ], 
@@ -104533,7 +104533,7 @@
         "section": "0203", 
         "seats": "26", 
         "course_id": "48408", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "G. Kachari"
       }, 
       {
@@ -104940,7 +104940,7 @@
         "section": "0331", 
         "seats": "27", 
         "course_id": "48461", 
-        "open": "2", 
+        "open": "1", 
         "teacher": "J. Stone"
       }
     ], 
@@ -105112,7 +105112,7 @@
         "section": "0131", 
         "seats": "30", 
         "course_id": "48512", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "C. Davis"
       }, 
       {
@@ -105634,7 +105634,7 @@
         "section": "0242", 
         "seats": "30", 
         "course_id": "48559", 
-        "open": "3", 
+        "open": "2", 
         "teacher": "D. Hamilton"
       }
     ], 
@@ -105745,7 +105745,7 @@
         "section": "0122", 
         "seats": "23", 
         "course_id": "48573", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "D. Gulick"
       }, 
       {
@@ -105985,7 +105985,7 @@
         "section": "0311", 
         "seats": "22", 
         "course_id": "48585", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "E. Harrison"
       }, 
       {
@@ -106005,7 +106005,7 @@
         "section": "0312", 
         "seats": "22", 
         "course_id": "48586", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "E. Harrison"
       }, 
       {
@@ -106331,7 +106331,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "16", 
+        "waitlist": "15", 
         "class_times": [], 
         "section": "0101", 
         "seats": "75", 
@@ -106550,7 +106550,7 @@
         "section": "0111", 
         "seats": "26", 
         "course_id": "48670", 
-        "open": "6", 
+        "open": "7", 
         "teacher": "T. Pilachowski"
       }, 
       {
@@ -106790,7 +106790,7 @@
         "section": "0311", 
         "seats": "26", 
         "course_id": "48686", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "P. Fitzpatrick"
       }, 
       {
@@ -107312,7 +107312,7 @@
         "section": "0122", 
         "seats": "27", 
         "course_id": "48734", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "M. Boyle"
       }, 
       {
@@ -107352,7 +107352,7 @@
         "section": "0132", 
         "seats": "27", 
         "course_id": "48737", 
-        "open": "4", 
+        "open": "5", 
         "teacher": "M. Boyle"
       }, 
       {
@@ -108205,7 +108205,7 @@
         "section": "0311", 
         "seats": "25", 
         "course_id": "48805", 
-        "open": "13", 
+        "open": "14", 
         "teacher": "E. Wilson and A. Brandon"
       }, 
       {
@@ -108225,7 +108225,7 @@
         "section": "0321", 
         "seats": "25", 
         "course_id": "48806", 
-        "open": "4", 
+        "open": "3", 
         "teacher": "E. Wilson and A. Brandon"
       }, 
       {
@@ -111509,7 +111509,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "9", 
+        "waitlist": "10", 
         "class_times": [
           {
             "start_time": "5:30pm", 
@@ -112205,7 +112205,7 @@
         "section": "0101", 
         "seats": "100", 
         "course_id": "51683", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "E. Osterloh"
       }
     ], 
@@ -112435,7 +112435,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "51731", 
-        "open": "18", 
+        "open": "16", 
         "teacher": "B. Sandstrom"
       }
     ], 
@@ -112450,7 +112450,7 @@
     "details": "CORE History or Theory of Arts (HA) Course. CORE Diversity (D) Course.", 
     "sections": [
       {
-        "waitlist": "0", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -112461,7 +112461,7 @@
         "section": "0101", 
         "seats": "40", 
         "course_id": "51741", 
-        "open": "2", 
+        "open": "0", 
         "teacher": "B. Sandstrom"
       }
     ], 
@@ -116598,7 +116598,7 @@
         "teacher": "E. Eaker"
       }, 
       {
-        "waitlist": "1", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -116618,7 +116618,7 @@
         "teacher": "E. Eaker"
       }, 
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -116658,7 +116658,7 @@
         "teacher": "E. Eaker"
       }, 
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -116678,7 +116678,7 @@
         "teacher": "E. Eaker"
       }, 
       {
-        "waitlist": "1", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -116714,11 +116714,11 @@
         "section": "0107", 
         "seats": "25", 
         "course_id": "55891", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "E. Eaker"
       }, 
       {
-        "waitlist": "1", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -116738,7 +116738,7 @@
         "teacher": "E. Eaker"
       }, 
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -116809,7 +116809,7 @@
         "teacher": "C. Morris"
       }, 
       {
-        "waitlist": "2", 
+        "waitlist": "3", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -116876,7 +116876,7 @@
         "section": "0102", 
         "seats": "25", 
         "course_id": "55916", 
-        "open": "14", 
+        "open": "13", 
         "teacher": "M. Frisch"
       }, 
       {
@@ -116896,7 +116896,7 @@
         "section": "0103", 
         "seats": "25", 
         "course_id": "55917", 
-        "open": "2", 
+        "open": "1", 
         "teacher": "M. Frisch"
       }
     ], 
@@ -117089,7 +117089,7 @@
         "section": "0102", 
         "seats": "25", 
         "course_id": "55952", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "L. Desautels"
       }, 
       {
@@ -117109,7 +117109,7 @@
         "section": "0103", 
         "seats": "25", 
         "course_id": "55953", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "L. Desautels"
       }
     ], 
@@ -117313,7 +117313,7 @@
         "teacher": "J. Maffie"
       }, 
       {
-        "waitlist": "1", 
+        "waitlist": "2", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -117344,7 +117344,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "10", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -117364,7 +117364,7 @@
         "teacher": "R. Fanselow"
       }, 
       {
-        "waitlist": "10", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -117384,7 +117384,7 @@
         "teacher": "R. Fanselow"
       }, 
       {
-        "waitlist": "9", 
+        "waitlist": "8", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -117486,7 +117486,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "20", 
+        "waitlist": "19", 
         "class_times": [
           {
             "start_time": "12:30pm", 
@@ -117512,7 +117512,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "12", 
+        "waitlist": "11", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -117793,7 +117793,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "56176", 
-        "open": "11", 
+        "open": "9", 
         "teacher": "M. Morreau"
       }
     ], 
@@ -118594,7 +118594,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "56597", 
-        "open": "8", 
+        "open": "9", 
         "teacher": "D. Lathrop"
       }, 
       {
@@ -119099,7 +119099,7 @@
         "teacher": "A. Hassam"
       }, 
       {
-        "waitlist": "10", 
+        "waitlist": "11", 
         "class_times": [
           {
             "start_time": "1:00pm", 
@@ -120427,7 +120427,7 @@
         "section": "0101", 
         "seats": "14", 
         "course_id": "56792", 
-        "open": "6", 
+        "open": "5", 
         "teacher": "K. Kim and J. Goodman"
       }, 
       {
@@ -120457,7 +120457,7 @@
         "section": "0301", 
         "seats": "14", 
         "course_id": "56794", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "K. Kim and J. Goodman"
       }, 
       {
@@ -121757,7 +121757,7 @@
         "section": "0401", 
         "seats": "12", 
         "course_id": "56974", 
-        "open": "4", 
+        "open": "3", 
         "teacher": "A. Skuja"
       }
     ], 
@@ -124447,7 +124447,7 @@
         "section": "0101", 
         "seats": "38", 
         "course_id": "59137", 
-        "open": "11", 
+        "open": "12", 
         "teacher": "T. Tomlinson"
       }, 
       {
@@ -124507,7 +124507,7 @@
         "section": "0104", 
         "seats": "37", 
         "course_id": "59140", 
-        "open": "24", 
+        "open": "23", 
         "teacher": "T. Tomlinson"
       }, 
       {
@@ -124673,7 +124673,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "7", 
+        "waitlist": "8", 
         "class_times": [
           {
             "start_time": "1:00pm", 
@@ -124899,7 +124899,7 @@
         "section": "0101", 
         "seats": "40", 
         "course_id": "59224", 
-        "open": "6", 
+        "open": "5", 
         "teacher": "A. Sheveland"
       }
     ], 
@@ -124992,7 +124992,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "59", 
+        "waitlist": "58", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -125029,7 +125029,7 @@
         "section": "0101", 
         "seats": "150", 
         "course_id": "59273", 
-        "open": "9", 
+        "open": "8", 
         "teacher": "N. Salahuddin"
       }
     ], 
@@ -125169,7 +125169,7 @@
         "section": "0101", 
         "seats": "100", 
         "course_id": "59337", 
-        "open": "23", 
+        "open": "22", 
         "teacher": "J. Gebhardt"
       }
     ], 
@@ -126826,7 +126826,7 @@
         "section": "0101", 
         "seats": "40", 
         "course_id": "60190", 
-        "open": "32", 
+        "open": "31", 
         "teacher": "N. Harris"
       }
     ], 
@@ -126893,7 +126893,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "3", 
+        "waitlist": "2", 
         "class_times": [
           {
             "start_time": "4:15pm", 
@@ -129713,7 +129713,7 @@
         "section": "0101", 
         "seats": "31", 
         "course_id": "61881", 
-        "open": "12", 
+        "open": "11", 
         "teacher": "R. De Keyser"
       }
     ], 
@@ -130201,7 +130201,7 @@
         "section": "0701", 
         "seats": "60", 
         "course_id": "61988", 
-        "open": "0", 
+        "open": "2", 
         "teacher": "M. Smith"
       }
     ], 
@@ -130607,7 +130607,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "13", 
+        "waitlist": "12", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -130797,7 +130797,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "62199", 
-        "open": "2", 
+        "open": "3", 
         "teacher": "N. DeLoatch"
       }
     ], 
@@ -130842,7 +130842,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "4", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -130894,7 +130894,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "18", 
+        "waitlist": "19", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -130946,7 +130946,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "24", 
+        "waitlist": "23", 
         "class_times": [
           {
             "start_time": "3:30pm", 
@@ -131050,7 +131050,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "3", 
+        "waitlist": "4", 
         "class_times": [
           {
             "start_time": "9:30am", 
@@ -131076,7 +131076,7 @@
     "details": null, 
     "sections": [
       {
-        "waitlist": "19", 
+        "waitlist": "18", 
         "class_times": [
           {
             "start_time": "12:30pm", 
@@ -131269,7 +131269,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "62527", 
-        "open": "15", 
+        "open": "14", 
         "teacher": "R. Korzeniewicz"
       }
     ], 
@@ -132185,7 +132185,7 @@
     "details": "CORE Literature (HL) Course. CORE Diversity (D) Course.", 
     "sections": [
       {
-        "waitlist": "6", 
+        "waitlist": "4", 
         "class_times": [
           {
             "start_time": "12:00pm", 
@@ -132282,7 +132282,7 @@
         "teacher": "L. Solano Moraga"
       }, 
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -132297,7 +132297,7 @@
         "teacher": "A. Mickus"
       }, 
       {
-        "waitlist": "2", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -132383,7 +132383,7 @@
         "teacher": "A. Acedo Garcia"
       }, 
       {
-        "waitlist": "4", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "10:00am", 
@@ -132398,7 +132398,7 @@
         "teacher": "A. Acedo Garcia"
       }, 
       {
-        "waitlist": "5", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -133496,7 +133496,7 @@
         "section": "0205", 
         "seats": "30", 
         "course_id": "63598", 
-        "open": "0", 
+        "open": "1", 
         "teacher": "J. Cohen"
       }
     ], 
@@ -133591,7 +133591,7 @@
         "teacher": "J. Millson</a> and C. Panraksa"
       }, 
       {
-        "waitlist": "7", 
+        "waitlist": "8", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -133611,7 +133611,7 @@
         "teacher": "J. Millson</a> and G. Liu"
       }, 
       {
-        "waitlist": "8", 
+        "waitlist": "9", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -133631,7 +133631,7 @@
         "teacher": "J. Millson</a> and C. Panraksa"
       }, 
       {
-        "waitlist": "4", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -133651,7 +133651,7 @@
         "teacher": "J. Millson</a> and B. Cash"
       }, 
       {
-        "waitlist": "4", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -133671,7 +133671,7 @@
         "teacher": "J. Millson</a> and G. Liu"
       }, 
       {
-        "waitlist": "4", 
+        "waitlist": "5", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -133847,7 +133847,7 @@
         "section": "0101", 
         "seats": "38", 
         "course_id": "63666", 
-        "open": "0", 
+        "open": "2", 
         "teacher": "H. Glaz"
       }
     ], 
@@ -134758,7 +134758,7 @@
     "details": "CORE Social or Political History (SH) Course.", 
     "sections": [
       {
-        "waitlist": "2", 
+        "waitlist": "23", 
         "class_times": [
           {
             "start_time": "11:00am", 
@@ -136209,7 +136209,7 @@
         "section": "0101", 
         "seats": "20", 
         "course_id": "64742", 
-        "open": "14", 
+        "open": "12", 
         "teacher": "N. Liakos"
       }
     ], 
@@ -136896,7 +136896,7 @@
     "details": "CORE Interdisciplinary & Emerging Issues (IE) Course.", 
     "sections": [
       {
-        "waitlist": "8", 
+        "waitlist": "7", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -136916,7 +136916,7 @@
         "teacher": "J. Cohen"
       }, 
       {
-        "waitlist": "7", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -136936,7 +136936,7 @@
         "teacher": "J. Cohen"
       }, 
       {
-        "waitlist": "7", 
+        "waitlist": "6", 
         "class_times": [
           {
             "start_time": "2:00pm", 
@@ -137713,7 +137713,7 @@
         "section": "0103", 
         "seats": "20", 
         "course_id": "66525", 
-        "open": "1", 
+        "open": "0", 
         "teacher": "K. Keane"
       }, 
       {
@@ -137773,7 +137773,7 @@
         "section": "0106", 
         "seats": "20", 
         "course_id": "66528", 
-        "open": "5", 
+        "open": "6", 
         "teacher": "K. Keane"
       }, 
       {
@@ -137813,7 +137813,7 @@
         "section": "0108", 
         "seats": "20", 
         "course_id": "66530", 
-        "open": "5", 
+        "open": "4", 
         "teacher": "K. Keane"
       }
     ], 
@@ -137921,7 +137921,7 @@
         "section": "0101", 
         "seats": "30", 
         "course_id": "65539", 
-        "open": "7", 
+        "open": "6", 
         "teacher": "T. Rodgers"
       }
     ], 
@@ -138161,7 +138161,7 @@
         "section": "0101", 
         "seats": "150", 
         "course_id": "65583", 
-        "open": "9", 
+        "open": "8", 
         "teacher": "N. Salahuddin"
       }
     ], 
@@ -138378,7 +138378,7 @@
     "details": "CORE Diversity (D) Course.", 
     "sections": [
       {
-        "waitlist": "0", 
+        "waitlist": "1", 
         "class_times": [
           {
             "start_time": "10:00am", 
@@ -138519,7 +138519,7 @@
         "section": "0101", 
         "seats": "30", 
         "course_id": "65683", 
-        "open": "7", 
+        "open": "6", 
         "teacher": "P. Peri"
       }
     ], 
