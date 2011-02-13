@@ -38,12 +38,12 @@ def main(argv=None):
             opts, args = getopt.getopt(argv[1:], "hoid:q", ["help","output=","input_json_data=","dept="])
         except getopt.error, msg:
             raise Usage(msg)
-            
+
         verbose= True
         output = 'data/course_data.json'
         json_data = None
         dept = None
-        
+
         # option processing
         for option, value in opts:
             if option == "-q":
@@ -56,7 +56,7 @@ def main(argv=None):
                 output = value
             if option in ("-d", "--dept"):
                 dept = value
-            
+
         c = testudo.crawler(term='201101', verbose=verbose)
         if json_data:
             # Load exising JSON data (faster)
@@ -68,12 +68,12 @@ def main(argv=None):
             else:
                 courses = c.get_all_courses()
             json.dump(courses, open(output, 'wb'), indent=2)
-        
+
         if csv:
             course_writer = csv.writer(open('data/courses.csv', 'wb'), delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
             section_writer = csv.writer(open('data/sections.csv', 'wb'), delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
             class_time_writer = csv.writer(open('data/class_times.csv', 'wb'), delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            
+
             for c in courses:
                 if c['sections']:
                     for s in c['sections']:
@@ -84,8 +84,7 @@ def main(argv=None):
                         section_writer.writerow([c['code']] + s.values())
                 del c['sections']
                 course_writer.writerow(c.values())
-                    
-        
+
     except Usage, err:
         print >> sys.stderr, sys.argv[0].split("/")[-1] + ": " + str(err.msg)
         print >> sys.stderr, "\t for help use --help"

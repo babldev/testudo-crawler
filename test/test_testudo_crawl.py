@@ -9,7 +9,7 @@ class testudocrawler_tests(unittest.TestCase):
     def setUp(self):
         self.crawler = testudo.crawler(term='201101', verbose=True)
         pass
-    
+
     def test_parse_section_data(self):
         sample_section_source = """
 <font color=#808080 face="Courier New" size=-1><dl> 
@@ -98,19 +98,19 @@ E. Golub</a> (FULL: Seats=25, Open=0, Waitlist=7) <a href="/bin/bookstore?term=2
         assert len(sections) == 8
         assert sections[0]['section'] == '0101'
         assert sections[0]['teacher'] == 'D. Jacobs'
-        
+
     def test_fetch_departments_page(self):
         response = self.crawler.fetch_departments_page()
         assert response is not None
         assert len(response) > 20
         assert response.find('CMSC') > 0
-    
+
     def test_get_departments(self):
         departments = self.crawler.get_departments()
         assert departments is not None
         assert len(departments) > 20
         assert dict(code='CMSC', title='Computer Science') in departments
-    
+
     def test_fetch_courses_page(self):
         response = self.crawler.fetch_courses_page('CMSC')
         assert response is not None
@@ -121,9 +121,9 @@ E. Golub</a> (FULL: Seats=25, Open=0, Waitlist=7) <a href="/bin/bookstore?term=2
         courses = self.crawler.get_courses('CMSC')
         # Simpler regex
         simple_courses = self.crawler.get_courses('CMSC', simple=True)
-        
+
         assert len(courses) == len(simple_courses)
-        
+
         assert courses is not None
         found = False
         correct_course = {
@@ -136,7 +136,7 @@ E. Golub</a> (FULL: Seats=25, Open=0, Waitlist=7) <a href="/bin/bookstore?term=2
         'details': None,
         'description': '<i> Corequisite: MATH140 and permission of department. Not open to students who have completed CMSC114. </i> Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques. Develops skills such as program design and testing as well as implementation of programs using a graphical IDE. Programming done in Java.',
         }
-        
+
         for c in courses:
             if c['code'] == correct_course['code']:
                 found = True
@@ -148,11 +148,11 @@ E. Golub</a> (FULL: Seats=25, Open=0, Waitlist=7) <a href="/bin/bookstore?term=2
         # Disable well not using
         courses = self.crawler.get_all_courses()
         simple_courses = self.crawler.get_all_courses(simple=True)
-        
+
         # ugly code
         for i in range(0, len(simple_courses)):
             assert simple_courses[i]['code'] == courses[i]['code'], simple_courses[i]['code']
     """
 if __name__ == "__main__":
     unittest.main()
-    
+

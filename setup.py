@@ -8,9 +8,9 @@ setup(
     description = "Scrapes the University of Maryland College Park course listings off of Testudo.",
     keywords = "testudo umd maryland course scrape crawler",
     url = "https://github.com/babldev/testudo-crawler",
-    
+
     packages = find_packages('src'),  # include all packages under src
     package_dir = {'':'src'},
-    
+
     test_suite='test',
 )
